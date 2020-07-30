@@ -5,3 +5,8 @@ build
 gradle
 node_modules
 
+/cyclonedx-dotnet/bom.zip
+/.vs
+/cyclonedx-dotnet/.vs/cyclonedx-dotnet/v16
+/cyclonedx-dotnet/bin/Debug/netcoreapp3.1
+/cyclonedx-dotnet/obj
