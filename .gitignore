@@ -1,5 +1,6 @@
 # Directories
 .gradle
+.venv
 build
 gradle
 node_modules
