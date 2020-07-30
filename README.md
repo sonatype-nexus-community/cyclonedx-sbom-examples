@@ -45,6 +45,22 @@ docker run cyclonedx/cyclonedx-dotnet [OPTIONS] <path>
 ```
 
 ## gradle
+To install:
+```
+gradle build
+OR
+./gradlew build
+OR
+.\gradlew.bat build
+```
+To scan:
+```
+gradle nexusIQScan
+OR
+./gradlew nexusIQScan
+OR
+.\gradlew.bat nexusIQScan
+```
 
 ## maven
 

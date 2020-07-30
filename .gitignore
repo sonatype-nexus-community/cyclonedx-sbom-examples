@@ -1,0 +1,6 @@
+# Directories
+.gradle
+build
+gradle
+node_modules
+
