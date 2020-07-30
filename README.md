@@ -14,11 +14,26 @@ To add a package:
 ```
 npm install <package>@<version>
 ```
+To list packages:
+```
+Everything:
+npm ls
+Specific:
+npm ls <package>
+```
 
 ## golang
+To install:
+```
+go mod download
+```
 To add a package:
 ```
 go get github.com/username/repository@vx.x.x
+```
+To list packages:
+```
+go list -m all
 ```
 
 ## dotnet
