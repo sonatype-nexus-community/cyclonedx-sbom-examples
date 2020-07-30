@@ -45,9 +45,10 @@ go list -m all
 ```
 
 ## dotnet
+To generate:
 ```
 dotnet tool install --global CycloneDX
-dotnet CycloneDX <path> -o <OUTPUT_DIRECTORY>
+dotnet cyclonedx .\cyclonedx-dotnet.sln -o .
 OR
 docker run cyclonedx/cyclonedx-dotnet [OPTIONS] <path>
 ```
