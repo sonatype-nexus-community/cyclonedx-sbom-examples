@@ -1,0 +1,25 @@
+{
+  "name": "cyclonedx-sbom-examples",
+  "version": "1.0.0",
+  "description": "This repo has example CycloneDx xml formatted SBOMs for popular packages across the major ecosystems/package managers.  Also, instructions for building and generating the sboms in the readme.  If you add or update packages, commit the manifest/lockfile and the cycloneDx xml back up to the repo please :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonatype-nexus-community/cyclonedx-sbom-examples.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonatype-nexus-community/cyclonedx-sbom-examples/issues"
+  },
+  "homepage": "https://github.com/sonatype-nexus-community/cyclonedx-sbom-examples#readme",
+  "dependencies": {
+    "angular": "^1.8.0",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.19",
+    "react": "^17.0.1"
+  }
+}
