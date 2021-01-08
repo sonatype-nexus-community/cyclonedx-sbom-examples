@@ -18,7 +18,7 @@
   "homepage": "https://github.com/sonatype-nexus-community/cyclonedx-sbom-examples#readme",
   "dependencies": {
     "angular": "^1.8.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.3.0",
     "lodash": "^4.17.19",
     "react": "^17.0.1"
   }
