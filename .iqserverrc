@@ -1,0 +1,3 @@
+---
+    NEXUS_IQ_APPLICATION: cyclonedx-sbom-examples
+    NEXUS_IQ_STAGE: develop
