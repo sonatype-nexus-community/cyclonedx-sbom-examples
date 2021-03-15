@@ -1,3 +1,4 @@
 ---
     NEXUS_IQ_APPLICATION: cyclonedx-sbom-examples
     NEXUS_IQ_STAGE: develop
+    NEXUS_IQ_URL: https://iq.sonatype-se.com/
