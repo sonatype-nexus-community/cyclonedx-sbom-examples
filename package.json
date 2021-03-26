@@ -4,7 +4,8 @@
   "description": "This repo has example CycloneDx xml formatted SBOMs for popular packages across the major ecosystems/package managers.  Also, instructions for building and generating the sboms in the readme.  If you add or update packages, commit the manifest/lockfile and the cycloneDx xml back up to the repo please :)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "iq-scan": "npx auditjs@latest iq -a cyclonedx-sbom-examples"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
     "jquery": "^3.3.0",
     "lodash": "^4.17.19",
     "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.22.0",
+    "typescript": "^4.2.3"
   }
 }
