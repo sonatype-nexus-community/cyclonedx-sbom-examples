@@ -3,3 +3,5 @@
         PublicApplication: cyclonedx-sbom-examples
         Stage: develop
         Server: https://iq.sonatype-se.com/
+    application:
+        IncludeDev: false
