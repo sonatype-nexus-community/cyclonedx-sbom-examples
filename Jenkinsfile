@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'se-iq-pipeline'
-    }
+    agent any
     stages {
         stage('IQ Source Scan') {
             steps {
